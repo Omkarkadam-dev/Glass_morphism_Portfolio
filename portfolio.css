@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    font-family: 'Caveat', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    padding: none;
+    margin: none;
+}
+
+body {
+    background-image: url(background-img.png);
+    background-size: cover;
+    height: 100vh;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main-container {
+    height: 350px;
+    width: 500px;
+    background-color: transparent;
+    border-radius: 50px;
+    backdrop-filter: blur(50px);
+    box-shadow: 1px 1px 15px 1px rgb(89, 78, 78);
+    transform: 0.3s;
+}
+
+.main-container:hover{
+    transform: scale(1.1);
+}
+.nav {
+    margin-top: 20px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.nav i {
+    margin-right: 20px;
+    font-size: 20px;
+    margin-top: 3px;
+}
+
+.line {
+    height: 1px;
+    background-color: black;
+    opacity: 0.7;
+    margin-top: 13px;
+}
+
+.main-box {
+    display: flex;
+}
+
+.main-box .box {
+    background-color: transparent;
+    height: 336px;
+    width: 190px;
+    display: flex;
+    justify-content: center;
+}
+
+.box1 img {
+    height: 170px;
+    margin-top: 50px;
+    margin-left: 20px;
+    transition: 0.3s;
+}
+
+.box1 img:hover{
+    transform: scale(1.1);
+
+}
+
+.box2 {
+    margin-top: 40px;
+
+}
+
+.box2 a {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    font-weight: 500;
+    margin-left: 70px;
+
+}
+
+.box2 ul {
+    margin-left: 60px;
+    margin-top: 10px;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+
+.icon {
+    margin-left: 40px;
+    margin-top: 50px;
+}
+
+.icon i {
+    font-size: 25px;
+    padding-right: 10px;
+}
+
+.icon i:hover{
+    color: rgb(89, 78, 78);
+}
